@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>shake</title>
+    <style>
+
+    @keyframes element {
+        from{
+           
+            left:10% ;
+            }
+        to{ 
+           
+            left:30% 
+            ;}
+        
+    }
+
+        body {
+        background-color: aqua;
+        }
+        body form{
+        background-color: white;
+            position: absolute;
+           top: 40%;
+           left: 40%;
+           height: 30%;
+           width: 20%;
+           border-radius: 5%;
+          
+           
+            
+        }
+        form input{
+            width: 80% ;
+            position :absolute;
+            top:50%;
+            left:10% ;
+            border-color: blue;
+            border-radius: 5px;
+            height: 10%;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <form>
+    <span id="moi" style="color: black;position:relative;top:10%;"></span>
+     <input type="text" id="tex"></br>
+     <button type="button" id="but" value="submit" style="position: absolute;top:70%;background-color:blue;width:30%;left:10%;height:20%">
+
+    </form>
+<script src="shake.js"></script>
+    
+</body>

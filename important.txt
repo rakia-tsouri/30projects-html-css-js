@@ -1,0 +1,32 @@
+   --------------html css js------------
+------------js--------
+var x=document.getElement...
+X.addeventlistner("click",function()...)
+
+
+
+
+-----------css-------------
+##animation:
+@keyframes element{
+     from (etat)
+     to(etat)}
+style d object{
+  animation-name:element
+ 
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction(normal-reverse-alternate)
+animation-timing-function(ease-linear) speed
+animation-fill-mode (etat final ) (none_forwards_backwards)
+
+##transition
+style{
+  transition:width 2s}
+transition
+transition-delay
+transition-duration
+transition-property width-height...
+transition-timing-function
